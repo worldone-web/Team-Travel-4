@@ -6,7 +6,16 @@
 관광지의 정보를 제공하는 것과 동시에 개인의 취향에 따른 관광지 주변의 즐길거리를 추천할 필요가 있다.   
 이 프로젝트는 사용자의 선호도를 기반으로 관광지 주변의 POI를 추천하는 시스템을 개발하는 것을 목표로 한다.
 
+### 범위
+- 이 프로젝트는 **부산 지역**에 적용할 수 있는 개인화 POI 추천 시스템을 개발한다.
+  - 부산 관광 업계의 BSI 지수는 규모와 수익성 측면에서 100이상을 기록했다.
+  - 또한, 계절적인 요인을 배제한 내국인 관광객 수도 BSI 지수가 100 이상을 유지하여 부산 내국인 관광객 수가 확대될 것으로 전망된다. (부산관광공사 2023, 3)
+- POI 중 **음식점**을 대상으로한 추천 시스템을 개발한다. 
+  - 부산 관광객의 81.7%가 맛집탐방을 하며, 68.9%로 관광 활동 중 가장 큰 만족도를 보였다.(부산관광공사 2023, 79-86)
+  - 음식점에 대한 추천 시스템은 과반 이상의 관광객의 수요를 충족시킬 수 있을 것으로 보인다.
+
 ### 주요 용어
+- BSI (Business Survey Index): 기업의 매출, 생산 등 주요경영활동의 결과와 전망에 대해 설문조사하여 그 결과를 지수화함으로써 산출한 통계, 100이상이면 긍정적 (wikipedia, 2022)
 - POI (Point of Interest): 누군가가 유용하거나 흥미롭다고 생각할 수 있는 특정 지점 위치(wikipedia, 2022)
 
 ## 시스템 특징
@@ -34,13 +43,14 @@
 
 
 ## ~~비기능적 요구사항~~
-### ~~성능~~
-### ~~안정성~~
-### ~~보안성~~
-### ~~품질~~
+-  ~~성능~~
+- ~~안정성~~
+- ~~보안성~~
+- ~~품질~~
 
 
 ## 참조
+- [BSI] wikipedia, 2022, "기업경기조사", https://ko.wikipedia.org/wiki/기업경기조사
 - [POI] wikipedia, 2022, "Point of interest", https://en.wikipedia.org/wiki/Point_of_interest
 
 - 관광지 추천 서비스 사례
@@ -48,3 +58,8 @@
   - [대한민국 구석구석](https://korean.visitkorea.or.kr/main/main.do)
   - [travel4u](https://travel4u.naver.com)
   - [Trip.com](https://kr.trip.com/travel-guide)
+  
+- 부산관광공사.2023. [2023년 2분기 부산관광기업 모니터링 조사](https://bto.or.kr/kor/CMS/Board/Board.do?mCode=MN102&page=2&mode=view&mgr_seq=92&board_seq=3384): 32
+- 부산관광공사.2023. [2023년 3분기 부산관광기업 모니터링 조사](https://bto.or.kr/kor/CMS/Board/Board.do?mCode=MN102&mode=view&mgr_seq=92&board_seq=3611): 1
+- 부산관광공사.2023. ["2023년 4분기 부산관광기업 모니터링 조사"](https://bto.or.kr/kor/CMS/Board/Board.do?mCode=MN102&mode=view&mgr_seq=92&board_seq=3774): 3
+- 부산관광공사.2023. [2023 부산 방문 관광객 실태조사](https://bto.or.kr/kor/CMS/Board/Board.do?mCode=MN102&mode=view&mgr_seq=92&board_seq=3787): 79-86
